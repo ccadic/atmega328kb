@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SW_Push_45deg
+#
+DEF SW_Push_45deg SW 0 40 N N 1 F N
+F0 "SW" 120 40 50 H V L CNN
+F1 "SW_Push_45deg" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -46 46 20 0 1 0 N
+C 45 -47 20 0 1 0 N
+P 2 0 1 0 -20 100 100 -20 N
+P 2 0 1 0 40 40 80 80 N
+P 3 0 1 0 -100 100 -60 60 -60 60 N
+P 4 0 1 0 60 -60 100 -100 100 -100 100 -100 N
+X 1 1 -100 100 0 R 50 50 0 1 P
+X 2 2 100 -100 0 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

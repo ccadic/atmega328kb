@@ -1,0 +1,1117 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L sw_push_45deg:SW_Push_45deg A?
+U 1 1 5D849847
+P 2515 1385
+AR Path="/5D849847" Ref="A?"  Part="1" 
+AR Path="/5D84943B/5D849847" Ref="A?"  Part="1" 
+AR Path="/5D8CA807/5D849847" Ref="A1"  Part="1" 
+AR Path="/5D676C6D/5D849847" Ref="A1"  Part="1" 
+F 0 "A1" H 2635 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2515 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2515 1385 50  0001 C CNN
+F 3 "" H 2515 1385 50  0001 C CNN
+	1    2515 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Z?
+U 1 1 5D84984E
+P 3215 1385
+AR Path="/5D84984E" Ref="Z?"  Part="1" 
+AR Path="/5D84943B/5D84984E" Ref="Z?"  Part="1" 
+AR Path="/5D8CA807/5D84984E" Ref="Z1"  Part="1" 
+AR Path="/5D676C6D/5D84984E" Ref="Z1"  Part="1" 
+F 0 "Z1" H 3335 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3215 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3215 1385 50  0001 C CNN
+F 3 "" H 3215 1385 50  0001 C CNN
+	1    3215 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg E?
+U 1 1 5D849855
+P 3915 1385
+AR Path="/5D849855" Ref="E?"  Part="1" 
+AR Path="/5D84943B/5D849855" Ref="E?"  Part="1" 
+AR Path="/5D8CA807/5D849855" Ref="E1"  Part="1" 
+AR Path="/5D676C6D/5D849855" Ref="E1"  Part="1" 
+F 0 "E1" H 4035 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3915 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3915 1385 50  0001 C CNN
+F 3 "" H 3915 1385 50  0001 C CNN
+	1    3915 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg R?
+U 1 1 5D84985C
+P 4615 1385
+AR Path="/5D84985C" Ref="R?"  Part="1" 
+AR Path="/5D84943B/5D84985C" Ref="R?"  Part="1" 
+AR Path="/5D8CA807/5D84985C" Ref="R27"  Part="1" 
+AR Path="/5D676C6D/5D84985C" Ref="R27"  Part="1" 
+F 0 "R27" H 4735 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 4615 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 4615 1385 50  0001 C CNN
+F 3 "" H 4615 1385 50  0001 C CNN
+	1    4615 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Q?
+U 1 1 5D849863
+P 2515 1835
+AR Path="/5D849863" Ref="Q?"  Part="1" 
+AR Path="/5D84943B/5D849863" Ref="Q?"  Part="1" 
+AR Path="/5D8CA807/5D849863" Ref="Q3"  Part="1" 
+AR Path="/5D676C6D/5D849863" Ref="Q3"  Part="1" 
+F 0 "Q3" H 2635 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2515 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2515 1835 50  0001 C CNN
+F 3 "" H 2515 1835 50  0001 C CNN
+	1    2515 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg S?
+U 1 1 5D84986A
+P 3215 1835
+AR Path="/5D84986A" Ref="S?"  Part="1" 
+AR Path="/5D84943B/5D84986A" Ref="S?"  Part="1" 
+AR Path="/5D8CA807/5D84986A" Ref="S2"  Part="1" 
+AR Path="/5D676C6D/5D84986A" Ref="S2"  Part="1" 
+F 0 "S2" H 3335 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3215 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3215 1835 50  0001 C CNN
+F 3 "" H 3215 1835 50  0001 C CNN
+	1    3215 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg D?
+U 1 1 5D849871
+P 3915 1835
+AR Path="/5D849871" Ref="D?"  Part="1" 
+AR Path="/5D84943B/5D849871" Ref="D?"  Part="1" 
+AR Path="/5D8CA807/5D849871" Ref="D1"  Part="1" 
+AR Path="/5D676C6D/5D849871" Ref="D1"  Part="1" 
+F 0 "D1" H 4035 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3915 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3915 1835 50  0001 C CNN
+F 3 "" H 3915 1835 50  0001 C CNN
+	1    3915 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg F?
+U 1 1 5D849878
+P 4615 1835
+AR Path="/5D849878" Ref="F?"  Part="1" 
+AR Path="/5D84943B/5D849878" Ref="F?"  Part="1" 
+AR Path="/5D8CA807/5D849878" Ref="F3"  Part="1" 
+AR Path="/5D676C6D/5D849878" Ref="F3"  Part="1" 
+F 0 "F3" H 4735 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 4615 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 4615 1835 50  0001 C CNN
+F 3 "" H 4615 1835 50  0001 C CNN
+	1    4615 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Alt?
+U 1 1 5D84987F
+P 2515 2285
+AR Path="/5D84987F" Ref="Alt?"  Part="1" 
+AR Path="/5D84943B/5D84987F" Ref="Alt?"  Part="1" 
+AR Path="/5D8CA807/5D84987F" Ref="Alt1"  Part="1" 
+AR Path="/5D676C6D/5D84987F" Ref="Alt1"  Part="1" 
+F 0 "Alt1" H 2635 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2515 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2515 2285 50  0001 C CNN
+F 3 "" H 2515 2285 50  0001 C CNN
+	1    2515 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg W?
+U 1 1 5D849886
+P 3215 2285
+AR Path="/5D849886" Ref="W?"  Part="1" 
+AR Path="/5D84943B/5D849886" Ref="W?"  Part="1" 
+AR Path="/5D8CA807/5D849886" Ref="W1"  Part="1" 
+AR Path="/5D676C6D/5D849886" Ref="W1"  Part="1" 
+F 0 "W1" H 3335 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3215 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3215 2285 50  0001 C CNN
+F 3 "" H 3215 2285 50  0001 C CNN
+	1    3215 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg X?
+U 1 1 5D84988D
+P 3915 2285
+AR Path="/5D84988D" Ref="X?"  Part="1" 
+AR Path="/5D84943B/5D84988D" Ref="X?"  Part="1" 
+AR Path="/5D8CA807/5D84988D" Ref="X1"  Part="1" 
+AR Path="/5D676C6D/5D84988D" Ref="X1"  Part="1" 
+F 0 "X1" H 4035 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3915 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3915 2285 50  0001 C CNN
+F 3 "" H 3915 2285 50  0001 C CNN
+	1    3915 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg C?
+U 1 1 5D849894
+P 4615 2285
+AR Path="/5D849894" Ref="C?"  Part="1" 
+AR Path="/5D84943B/5D849894" Ref="C?"  Part="1" 
+AR Path="/5D8CA807/5D849894" Ref="C21"  Part="1" 
+AR Path="/5D676C6D/5D849894" Ref="C21"  Part="1" 
+F 0 "C21" H 4735 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 4615 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 4615 2285 50  0001 C CNN
+F 3 "" H 4615 2285 50  0001 C CNN
+	1    4615 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Shift?
+U 1 1 5D84989B
+P 2515 2735
+AR Path="/5D84989B" Ref="Shift?"  Part="1" 
+AR Path="/5D84943B/5D84989B" Ref="Shift?"  Part="1" 
+AR Path="/5D8CA807/5D84989B" Ref="Shift1"  Part="1" 
+AR Path="/5D676C6D/5D84989B" Ref="Shift1"  Part="1" 
+F 0 "Shift1" H 2635 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2515 2585 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2515 2735 50  0001 C CNN
+F 3 "" H 2515 2735 50  0001 C CNN
+	1    2515 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg 0_?
+U 1 1 5D8498A2
+P 3215 2735
+AR Path="/5D8498A2" Ref="0_?"  Part="1" 
+AR Path="/5D84943B/5D8498A2" Ref="0_?"  Part="1" 
+AR Path="/5D8CA807/5D8498A2" Ref="0_1"  Part="1" 
+AR Path="/5D676C6D/5D8498A2" Ref="0_1"  Part="1" 
+F 0 "0_1" H 3335 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3215 2585 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3215 2735 50  0001 C CNN
+F 3 "" H 3215 2735 50  0001 C CNN
+	1    3215 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg SPC?
+U 1 1 5D8498A9
+P 3915 2735
+AR Path="/5D8498A9" Ref="SPC?"  Part="1" 
+AR Path="/5D84943B/5D8498A9" Ref="SPC?"  Part="1" 
+AR Path="/5D8CA807/5D8498A9" Ref="SPC1"  Part="1" 
+AR Path="/5D676C6D/5D8498A9" Ref="SPC1"  Part="1" 
+F 0 "SPC1" H 4035 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3915 2585 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3915 2735 50  0001 C CNN
+F 3 "" H 3915 2735 50  0001 C CNN
+	1    3915 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg T?
+U 1 1 5D8498B0
+P 5365 1385
+AR Path="/5D8498B0" Ref="T?"  Part="1" 
+AR Path="/5D84943B/5D8498B0" Ref="T?"  Part="1" 
+AR Path="/5D8CA807/5D8498B0" Ref="T1"  Part="1" 
+AR Path="/5D676C6D/5D8498B0" Ref="T1"  Part="1" 
+F 0 "T1" H 5485 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5365 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 5365 1385 50  0001 C CNN
+F 3 "" H 5365 1385 50  0001 C CNN
+	1    5365 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg G?
+U 1 1 5D8498B7
+P 5365 1835
+AR Path="/5D8498B7" Ref="G?"  Part="1" 
+AR Path="/5D84943B/5D8498B7" Ref="G?"  Part="1" 
+AR Path="/5D8CA807/5D8498B7" Ref="G1"  Part="1" 
+AR Path="/5D676C6D/5D8498B7" Ref="G1"  Part="1" 
+F 0 "G1" H 5485 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5365 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 5365 1835 50  0001 C CNN
+F 3 "" H 5365 1835 50  0001 C CNN
+	1    5365 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg V?
+U 1 1 5D8498BE
+P 5365 2285
+AR Path="/5D8498BE" Ref="V?"  Part="1" 
+AR Path="/5D84943B/5D8498BE" Ref="V?"  Part="1" 
+AR Path="/5D8CA807/5D8498BE" Ref="V1"  Part="1" 
+AR Path="/5D676C6D/5D8498BE" Ref="V1"  Part="1" 
+F 0 "V1" H 5485 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5365 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 5365 2285 50  0001 C CNN
+F 3 "" H 5365 2285 50  0001 C CNN
+	1    5365 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Y?
+U 1 1 5D8498C5
+P 6365 1385
+AR Path="/5D8498C5" Ref="Y?"  Part="1" 
+AR Path="/5D84943B/5D8498C5" Ref="Y?"  Part="1" 
+AR Path="/5D8CA807/5D8498C5" Ref="Y1"  Part="1" 
+AR Path="/5D676C6D/5D8498C5" Ref="Y1"  Part="1" 
+F 0 "Y1" H 6485 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6365 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 6365 1385 50  0001 C CNN
+F 3 "" H 6365 1385 50  0001 C CNN
+	1    6365 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg U?
+U 1 1 5D8498CC
+P 7065 1385
+AR Path="/5D8498CC" Ref="U?"  Part="1" 
+AR Path="/5D84943B/5D8498CC" Ref="U?"  Part="1" 
+AR Path="/5D8CA807/5D8498CC" Ref="U4"  Part="1" 
+AR Path="/5D676C6D/5D8498CC" Ref="U4"  Part="1" 
+F 0 "U4" H 7185 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7065 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7065 1385 50  0001 C CNN
+F 3 "" H 7065 1385 50  0001 C CNN
+	1    7065 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg I?
+U 1 1 5D8498D3
+P 7765 1385
+AR Path="/5D8498D3" Ref="I?"  Part="1" 
+AR Path="/5D84943B/5D8498D3" Ref="I?"  Part="1" 
+AR Path="/5D8CA807/5D8498D3" Ref="I1"  Part="1" 
+AR Path="/5D676C6D/5D8498D3" Ref="I1"  Part="1" 
+F 0 "I1" H 7885 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7765 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7765 1385 50  0001 C CNN
+F 3 "" H 7765 1385 50  0001 C CNN
+	1    7765 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg O?
+U 1 1 5D8498DA
+P 8465 1385
+AR Path="/5D8498DA" Ref="O?"  Part="1" 
+AR Path="/5D84943B/5D8498DA" Ref="O?"  Part="1" 
+AR Path="/5D8CA807/5D8498DA" Ref="O1"  Part="1" 
+AR Path="/5D676C6D/5D8498DA" Ref="O1"  Part="1" 
+F 0 "O1" H 8585 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8465 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 8465 1385 50  0001 C CNN
+F 3 "" H 8465 1385 50  0001 C CNN
+	1    8465 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg H?
+U 1 1 5D8498E1
+P 6365 1835
+AR Path="/5D8498E1" Ref="H?"  Part="1" 
+AR Path="/5D84943B/5D8498E1" Ref="H?"  Part="1" 
+AR Path="/5D8CA807/5D8498E1" Ref="H1"  Part="1" 
+AR Path="/5D676C6D/5D8498E1" Ref="H1"  Part="1" 
+F 0 "H1" H 6485 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6365 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 6365 1835 50  0001 C CNN
+F 3 "" H 6365 1835 50  0001 C CNN
+	1    6365 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg J?
+U 1 1 5D8498E8
+P 7065 1835
+AR Path="/5D8498E8" Ref="J?"  Part="1" 
+AR Path="/5D84943B/5D8498E8" Ref="J?"  Part="1" 
+AR Path="/5D8CA807/5D8498E8" Ref="J5"  Part="1" 
+AR Path="/5D676C6D/5D8498E8" Ref="J5"  Part="1" 
+F 0 "J5" H 7185 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7065 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7065 1835 50  0001 C CNN
+F 3 "" H 7065 1835 50  0001 C CNN
+	1    7065 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg K?
+U 1 1 5D8498EF
+P 7765 1835
+AR Path="/5D8498EF" Ref="K?"  Part="1" 
+AR Path="/5D84943B/5D8498EF" Ref="K?"  Part="1" 
+AR Path="/5D8CA807/5D8498EF" Ref="K1"  Part="1" 
+AR Path="/5D676C6D/5D8498EF" Ref="K1"  Part="1" 
+F 0 "K1" H 7885 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7765 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7765 1835 50  0001 C CNN
+F 3 "" H 7765 1835 50  0001 C CNN
+	1    7765 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg L?
+U 1 1 5D8498F6
+P 8465 1835
+AR Path="/5D8498F6" Ref="L?"  Part="1" 
+AR Path="/5D84943B/5D8498F6" Ref="L?"  Part="1" 
+AR Path="/5D8CA807/5D8498F6" Ref="L4"  Part="1" 
+AR Path="/5D676C6D/5D8498F6" Ref="L4"  Part="1" 
+F 0 "L4" H 8585 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8465 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 8465 1835 50  0001 C CNN
+F 3 "" H 8465 1835 50  0001 C CNN
+	1    8465 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg B?
+U 1 1 5D8498FD
+P 6365 2285
+AR Path="/5D8498FD" Ref="B?"  Part="1" 
+AR Path="/5D84943B/5D8498FD" Ref="B?"  Part="1" 
+AR Path="/5D8CA807/5D8498FD" Ref="B1"  Part="1" 
+AR Path="/5D676C6D/5D8498FD" Ref="B1"  Part="1" 
+F 0 "B1" H 6485 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6365 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 6365 2285 50  0001 C CNN
+F 3 "" H 6365 2285 50  0001 C CNN
+	1    6365 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg N?
+U 1 1 5D849904
+P 7065 2285
+AR Path="/5D849904" Ref="N?"  Part="1" 
+AR Path="/5D84943B/5D849904" Ref="N?"  Part="1" 
+AR Path="/5D8CA807/5D849904" Ref="N1"  Part="1" 
+AR Path="/5D676C6D/5D849904" Ref="N1"  Part="1" 
+F 0 "N1" H 7185 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7065 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7065 2285 50  0001 C CNN
+F 3 "" H 7065 2285 50  0001 C CNN
+	1    7065 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg M?
+U 1 1 5D84990B
+P 7765 2285
+AR Path="/5D84990B" Ref="M?"  Part="1" 
+AR Path="/5D84943B/5D84990B" Ref="M?"  Part="1" 
+AR Path="/5D8CA807/5D84990B" Ref="M1"  Part="1" 
+AR Path="/5D676C6D/5D84990B" Ref="M1"  Part="1" 
+F 0 "M1" H 7885 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7765 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7765 2285 50  0001 C CNN
+F 3 "" H 7765 2285 50  0001 C CNN
+	1    7765 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg EUR?
+U 1 1 5D849912
+P 8465 2285
+AR Path="/5D849912" Ref="EUR?"  Part="1" 
+AR Path="/5D84943B/5D849912" Ref="EUR?"  Part="1" 
+AR Path="/5D8CA807/5D849912" Ref="EUR1"  Part="1" 
+AR Path="/5D676C6D/5D849912" Ref="EUR1"  Part="1" 
+F 0 "EUR1" H 8585 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8465 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 8465 2285 50  0001 C CNN
+F 3 "" H 8465 2285 50  0001 C CNN
+	1    8465 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Sym?
+U 1 1 5D849919
+P 8465 2735
+AR Path="/5D849919" Ref="Sym?"  Part="1" 
+AR Path="/5D84943B/5D849919" Ref="Sym?"  Part="1" 
+AR Path="/5D8CA807/5D849919" Ref="Sym1"  Part="1" 
+AR Path="/5D676C6D/5D849919" Ref="Sym1"  Part="1" 
+F 0 "Sym1" H 8585 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8465 2585 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 8465 2735 50  0001 C CNN
+F 3 "" H 8465 2735 50  0001 C CNN
+	1    8465 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg P?
+U 1 1 5D849920
+P 9215 1385
+AR Path="/5D849920" Ref="P?"  Part="1" 
+AR Path="/5D84943B/5D849920" Ref="P?"  Part="1" 
+AR Path="/5D8CA807/5D849920" Ref="P1"  Part="1" 
+AR Path="/5D676C6D/5D849920" Ref="P1"  Part="1" 
+F 0 "P1" H 9335 1425 50  0000 L CNN
+F 1 "SW_Push_45deg" H 9215 1235 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 9215 1385 50  0001 C CNN
+F 3 "" H 9215 1385 50  0001 C CNN
+	1    9215 1385
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg BkSp?
+U 1 1 5D849927
+P 9215 1835
+AR Path="/5D849927" Ref="BkSp?"  Part="1" 
+AR Path="/5D84943B/5D849927" Ref="BkSp?"  Part="1" 
+AR Path="/5D8CA807/5D849927" Ref="BkSp1"  Part="1" 
+AR Path="/5D676C6D/5D849927" Ref="BkSp1"  Part="1" 
+F 0 "BkSp1" H 9335 1875 50  0000 L CNN
+F 1 "SW_Push_45deg" H 9215 1685 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 9215 1835 50  0001 C CNN
+F 3 "" H 9215 1835 50  0001 C CNN
+	1    9215 1835
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Ret?
+U 1 1 5D84992E
+P 9215 2285
+AR Path="/5D84992E" Ref="Ret?"  Part="1" 
+AR Path="/5D84943B/5D84992E" Ref="Ret?"  Part="1" 
+AR Path="/5D8CA807/5D84992E" Ref="Ret1"  Part="1" 
+AR Path="/5D676C6D/5D84992E" Ref="Ret1"  Part="1" 
+F 0 "Ret1" H 9335 2325 50  0000 L CNN
+F 1 "SW_Push_45deg" H 9215 2135 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 9215 2285 50  0001 C CNN
+F 3 "" H 9215 2285 50  0001 C CNN
+	1    9215 2285
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Shift?
+U 1 1 5D849935
+P 9215 2735
+AR Path="/5D849935" Ref="Shift?"  Part="1" 
+AR Path="/5D84943B/5D849935" Ref="Shift?"  Part="1" 
+AR Path="/5D8CA807/5D849935" Ref="Shift2"  Part="1" 
+AR Path="/5D676C6D/5D849935" Ref="Shift2"  Part="1" 
+F 0 "Shift2" H 9335 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 9215 2585 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 9215 2735 50  0001 C CNN
+F 3 "" H 9215 2735 50  0001 C CNN
+	1    9215 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg SPC?
+U 1 1 5D84993C
+P 4635 3305
+AR Path="/5D84993C" Ref="SPC?"  Part="1" 
+AR Path="/5D84943B/5D84993C" Ref="SPC?"  Part="1" 
+AR Path="/5D8CA807/5D84993C" Ref="SPC2"  Part="1" 
+AR Path="/5D676C6D/5D84993C" Ref="SPC2"  Part="1" 
+F 0 "SPC2" H 4755 3345 50  0000 L CNN
+F 1 "SW_Push_45deg" H 4635 3155 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 4635 3305 50  0001 C CNN
+F 3 "" H 4635 3305 50  0001 C CNN
+	1    4635 3305
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg SPC?
+U 1 1 5D849943
+P 5420 3310
+AR Path="/5D849943" Ref="SPC?"  Part="1" 
+AR Path="/5D84943B/5D849943" Ref="SPC?"  Part="1" 
+AR Path="/5D8CA807/5D849943" Ref="SPC3"  Part="1" 
+AR Path="/5D676C6D/5D849943" Ref="SPC3"  Part="1" 
+F 0 "SPC3" H 5540 3350 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5420 3160 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 5420 3310 50  0001 C CNN
+F 3 "" H 5420 3310 50  0001 C CNN
+	1    5420 3310
+	-1   0    0    -1  
+$EndComp
+Text Label 1815 1485 0    60   ~ 0
+row0
+Text Label 1815 1935 0    60   ~ 0
+row1
+Text Label 1815 2385 0    60   ~ 0
+row2
+Text Label 1815 2835 0    60   ~ 0
+row3
+Text Label 2615 1085 0    60   ~ 0
+col0
+Text Label 3315 1085 0    60   ~ 0
+col1
+Text Label 4015 1085 0    60   ~ 0
+col2
+Text Label 4715 1085 0    60   ~ 0
+col3
+Text Label 5465 1085 0    60   ~ 0
+col4
+Text Label 6465 1085 0    60   ~ 0
+col5
+Text Label 7165 1085 0    60   ~ 0
+col6
+Text Label 7865 1085 0    60   ~ 0
+col7
+Text Label 8565 1085 0    60   ~ 0
+col8
+Text Label 9315 1085 0    60   ~ 0
+col9
+$Comp
+L sw_push_45deg:SW_Push_45deg LeftArrow?
+U 1 1 5D849958
+P 5365 2735
+AR Path="/5D849958" Ref="LeftArrow?"  Part="1" 
+AR Path="/5D84943B/5D849958" Ref="LeftArrow?"  Part="1" 
+AR Path="/5D8CA807/5D849958" Ref="LeftArrow1"  Part="1" 
+AR Path="/5D676C6D/5D849958" Ref="LeftArrow1"  Part="1" 
+F 0 "LeftArrow1" H 5485 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5365 2585 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 5365 2735 50  0001 C CNN
+F 3 "" H 5365 2735 50  0001 C CNN
+	1    5365 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg RightArrow?
+U 1 1 5D84995F
+P 6340 2735
+AR Path="/5D84995F" Ref="RightArrow?"  Part="1" 
+AR Path="/5D84943B/5D84995F" Ref="RightArrow?"  Part="1" 
+AR Path="/5D8CA807/5D84995F" Ref="RightArrow1"  Part="1" 
+AR Path="/5D676C6D/5D84995F" Ref="RightArrow1"  Part="1" 
+F 0 "RightArrow1" H 6460 2775 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6340 2585 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 6340 2735 50  0001 C CNN
+F 3 "" H 6340 2735 50  0001 C CNN
+	1    6340 2735
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg UpArrow?
+U 1 1 5D849966
+P 7065 2740
+AR Path="/5D849966" Ref="UpArrow?"  Part="1" 
+AR Path="/5D84943B/5D849966" Ref="UpArrow?"  Part="1" 
+AR Path="/5D8CA807/5D849966" Ref="UpArrow1"  Part="1" 
+AR Path="/5D676C6D/5D849966" Ref="UpArrow1"  Part="1" 
+F 0 "UpArrow1" H 7185 2780 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7065 2590 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 7065 2740 50  0001 C CNN
+F 3 "" H 7065 2740 50  0001 C CNN
+	1    7065 2740
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg DownArrow?
+U 1 1 5D84996D
+P 7765 2740
+AR Path="/5D84996D" Ref="DownArrow?"  Part="1" 
+AR Path="/5D84943B/5D84996D" Ref="DownArrow?"  Part="1" 
+AR Path="/5D8CA807/5D84996D" Ref="DownArrow1"  Part="1" 
+AR Path="/5D676C6D/5D84996D" Ref="DownArrow1"  Part="1" 
+F 0 "DownArrow1" H 7885 2780 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7765 2590 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 7765 2740 50  0001 C CNN
+F 3 "" H 7765 2740 50  0001 C CNN
+	1    7765 2740
+	-1   0    0    -1  
+$EndComp
+Text Notes 1795 3605 0    60   ~ 0
+Keyboard Matrix\nIC2 mode
+Text Label 1825 3185 0    60   ~ 0
+row4
+$Comp
+L sw_push_45deg:SW_Push_45deg CTRL?
+U 1 1 5D849976
+P 2520 3085
+AR Path="/5D849976" Ref="CTRL?"  Part="1" 
+AR Path="/5D84943B/5D849976" Ref="CTRL?"  Part="1" 
+AR Path="/5D8CA807/5D849976" Ref="CTRL1"  Part="1" 
+AR Path="/5D676C6D/5D849976" Ref="CTRL1"  Part="1" 
+F 0 "CTRL1" H 2600 2850 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2520 2935 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2520 3085 50  0001 C CNN
+F 3 "" H 2520 3085 50  0001 C CNN
+	1    2520 3085
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg ALTGR?
+U 1 1 5D84997D
+P 3240 3085
+AR Path="/5D84997D" Ref="ALTGR?"  Part="1" 
+AR Path="/5D84943B/5D84997D" Ref="ALTGR?"  Part="1" 
+AR Path="/5D8CA807/5D84997D" Ref="ALTGR1"  Part="1" 
+AR Path="/5D676C6D/5D84997D" Ref="ALTGR1"  Part="1" 
+F 0 "ALTGR1" H 3320 2850 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3240 2935 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3240 3085 50  0001 C CNN
+F 3 "" H 3240 3085 50  0001 C CNN
+	1    3240 3085
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg ESC?
+U 1 1 5D849984
+P 3890 3105
+AR Path="/5D849984" Ref="ESC?"  Part="1" 
+AR Path="/5D84943B/5D849984" Ref="ESC?"  Part="1" 
+AR Path="/5D8CA807/5D849984" Ref="ESC1"  Part="1" 
+AR Path="/5D676C6D/5D849984" Ref="ESC1"  Part="1" 
+F 0 "ESC1" H 3910 2865 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3890 2955 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3890 3105 50  0001 C CNN
+F 3 "" H 3890 3105 50  0001 C CNN
+	1    3890 3105
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg DEL?
+U 1 1 5D84998B
+P 6285 3195
+AR Path="/5D84998B" Ref="DEL?"  Part="1" 
+AR Path="/5D84943B/5D84998B" Ref="DEL?"  Part="1" 
+AR Path="/5D8CA807/5D84998B" Ref="DEL1"  Part="1" 
+AR Path="/5D676C6D/5D84998B" Ref="DEL1"  Part="1" 
+F 0 "DEL1" H 6305 2955 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6285 3045 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 6285 3195 50  0001 C CNN
+F 3 "" H 6285 3195 50  0001 C CNN
+	1    6285 3195
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Fn?
+U 1 1 5D849992
+P 7065 3235
+AR Path="/5D849992" Ref="Fn?"  Part="1" 
+AR Path="/5D84943B/5D849992" Ref="Fn?"  Part="1" 
+AR Path="/5D8CA807/5D849992" Ref="Fn2"  Part="1" 
+AR Path="/5D676C6D/5D849992" Ref="Fn2"  Part="1" 
+F 0 "Fn2" H 7185 3275 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7065 3085 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 7065 3235 50  0001 C CNN
+F 3 "" H 7065 3235 50  0001 C CNN
+	1    7065 3235
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4535 3405 4255 3405
+Wire Wire Line
+	4255 2835 4255 3405
+Connection ~ 4255 2835
+Wire Wire Line
+	4735 2595 4735 3025
+Wire Wire Line
+	4015 2595 4070 2595
+Connection ~ 4015 2595
+Wire Wire Line
+	5320 3410 5030 3410
+Wire Wire Line
+	5030 3410 5030 3540
+Wire Wire Line
+	5030 3540 4255 3540
+Connection ~ 4255 3405
+Wire Wire Line
+	5520 3210 5520 3025
+Wire Wire Line
+	5520 3025 4735 3025
+Connection ~ 4735 3025
+Wire Wire Line
+	6465 2335 6440 2335
+Wire Wire Line
+	6750 2835 6750 2840
+Wire Wire Line
+	8365 2840 8365 2835
+Wire Wire Line
+	8365 2835 9115 2835
+Wire Wire Line
+	2615 2950 2620 2950
+Wire Wire Line
+	2620 2950 2620 2985
+Wire Wire Line
+	3315 2590 3340 2590
+Wire Wire Line
+	3340 2590 3340 2985
+Connection ~ 3315 2590
+Wire Wire Line
+	3650 3185 3650 3205
+Wire Wire Line
+	3990 3005 4070 3005
+Wire Wire Line
+	4070 3005 4070 2595
+Connection ~ 4070 2595
+Wire Wire Line
+	4195 3205 4195 3610
+Wire Wire Line
+	5805 3610 5805 3295
+Wire Wire Line
+	5770 3295 5805 3295
+Wire Wire Line
+	6440 3095 6385 3095
+Wire Wire Line
+	6910 3295 6910 3335
+$Comp
+L sw_push_45deg:SW_Push_45deg Fn?
+U 1 1 5D849A13
+P 7765 3235
+AR Path="/5D849A13" Ref="Fn?"  Part="1" 
+AR Path="/5D84943B/5D849A13" Ref="Fn?"  Part="1" 
+AR Path="/5D8CA807/5D849A13" Ref="Fn3"  Part="1" 
+AR Path="/5D676C6D/5D849A13" Ref="Fn3"  Part="1" 
+F 0 "Fn3" H 7885 3275 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7765 3085 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 7765 3235 50  0001 C CNN
+F 3 "" H 7765 3235 50  0001 C CNN
+	1    7765 3235
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg Fn?
+U 1 1 5D849A1C
+P 8465 3230
+AR Path="/5D849A1C" Ref="Fn?"  Part="1" 
+AR Path="/5D84943B/5D849A1C" Ref="Fn?"  Part="1" 
+AR Path="/5D8CA807/5D849A1C" Ref="Fn4"  Part="1" 
+AR Path="/5D676C6D/5D849A1C" Ref="Fn4"  Part="1" 
+F 0 "Fn4" H 8585 3270 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8465 3080 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 8465 3230 50  0001 C CNN
+F 3 "" H 8465 3230 50  0001 C CNN
+	1    8465 3230
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3335 8200 3330
+$Comp
+L sw_push_45deg:SW_Push_45deg Fn?
+U 1 1 5D849A26
+P 9215 3245
+AR Path="/5D849A26" Ref="Fn?"  Part="1" 
+AR Path="/5D84943B/5D849A26" Ref="Fn?"  Part="1" 
+AR Path="/5D8CA807/5D849A26" Ref="Fn5"  Part="1" 
+AR Path="/5D676C6D/5D849A26" Ref="Fn5"  Part="1" 
+F 0 "Fn5" H 9335 3285 50  0000 L CNN
+F 1 "SW_Push_45deg" H 9215 3095 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 9215 3245 50  0001 C CNN
+F 3 "" H 9215 3245 50  0001 C CNN
+	1    9215 3245
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8710 3330 8710 3345
+Wire Wire Line
+	8710 3345 9115 3345
+$Comp
+L sw_push_45deg:SW_Push_45deg Fn?
+U 1 1 5D849A31
+P 5870 3085
+AR Path="/5D849A31" Ref="Fn?"  Part="1" 
+AR Path="/5D84943B/5D849A31" Ref="Fn?"  Part="1" 
+AR Path="/5D8CA807/5D849A31" Ref="Fn1"  Part="1" 
+AR Path="/5D676C6D/5D849A31" Ref="Fn1"  Part="1" 
+F 0 "Fn1" H 5990 3125 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5870 2935 50  0001 C CNN
+F 2 "18650:SW_TP1003" H 5870 3085 50  0001 C CNN
+F 3 "" H 5870 3085 50  0001 C CNN
+	1    5870 3085
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5465 2770 5970 2770
+Wire Wire Line
+	5970 2770 5970 2985
+Wire Wire Line
+	5770 3185 5770 3295
+Connection ~ 5805 3295
+Wire Wire Line
+	4015 2595 4015 2635
+Wire Wire Line
+	4255 3405 4255 3540
+Wire Wire Line
+	4735 3025 4735 3205
+Wire Wire Line
+	3315 2590 3315 2635
+Wire Wire Line
+	4070 2595 4735 2595
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E946
+P 2205 4405
+AR Path="/5D84E946" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E946" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E946" Ref="zz1"  Part="1" 
+AR Path="/5D676C6D/5D84E946" Ref="zz1"  Part="1" 
+F 0 "zz1" H 2325 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2205 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2205 4405 50  0001 C CNN
+F 3 "" H 2205 4405 50  0001 C CNN
+	1    2205 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E94D
+P 2905 4405
+AR Path="/5D84E94D" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E94D" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E94D" Ref="zz2"  Part="1" 
+AR Path="/5D676C6D/5D84E94D" Ref="zz2"  Part="1" 
+F 0 "zz2" H 3025 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 2905 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 2905 4405 50  0001 C CNN
+F 3 "" H 2905 4405 50  0001 C CNN
+	1    2905 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E954
+P 3605 4405
+AR Path="/5D84E954" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E954" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E954" Ref="zz3"  Part="1" 
+AR Path="/5D676C6D/5D84E954" Ref="zz3"  Part="1" 
+F 0 "zz3" H 3725 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3605 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 3605 4405 50  0001 C CNN
+F 3 "" H 3605 4405 50  0001 C CNN
+	1    3605 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E95B
+P 4305 4405
+AR Path="/5D84E95B" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E95B" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E95B" Ref="zz4"  Part="1" 
+AR Path="/5D676C6D/5D84E95B" Ref="zz4"  Part="1" 
+F 0 "zz4" H 4425 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 4305 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 4305 4405 50  0001 C CNN
+F 3 "" H 4305 4405 50  0001 C CNN
+	1    4305 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E962
+P 5055 4405
+AR Path="/5D84E962" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E962" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E962" Ref="zz5"  Part="1" 
+AR Path="/5D676C6D/5D84E962" Ref="zz5"  Part="1" 
+F 0 "zz5" H 5175 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 5055 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 5055 4405 50  0001 C CNN
+F 3 "" H 5055 4405 50  0001 C CNN
+	1    5055 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E969
+P 6055 4405
+AR Path="/5D84E969" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E969" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E969" Ref="zz6"  Part="1" 
+AR Path="/5D676C6D/5D84E969" Ref="zz6"  Part="1" 
+F 0 "zz6" H 6175 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6055 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 6055 4405 50  0001 C CNN
+F 3 "" H 6055 4405 50  0001 C CNN
+	1    6055 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E970
+P 6755 4405
+AR Path="/5D84E970" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E970" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E970" Ref="zz7"  Part="1" 
+AR Path="/5D676C6D/5D84E970" Ref="zz7"  Part="1" 
+F 0 "zz7" H 6875 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 6755 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 6755 4405 50  0001 C CNN
+F 3 "" H 6755 4405 50  0001 C CNN
+	1    6755 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E977
+P 7455 4405
+AR Path="/5D84E977" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E977" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E977" Ref="zz8"  Part="1" 
+AR Path="/5D676C6D/5D84E977" Ref="zz8"  Part="1" 
+F 0 "zz8" H 7575 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 7455 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 7455 4405 50  0001 C CNN
+F 3 "" H 7455 4405 50  0001 C CNN
+	1    7455 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E97E
+P 8155 4405
+AR Path="/5D84E97E" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E97E" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E97E" Ref="zz9"  Part="1" 
+AR Path="/5D676C6D/5D84E97E" Ref="zz9"  Part="1" 
+F 0 "zz9" H 8275 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8155 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 8155 4405 50  0001 C CNN
+F 3 "" H 8155 4405 50  0001 C CNN
+	1    8155 4405
+	-1   0    0    -1  
+$EndComp
+$Comp
+L sw_push_45deg:SW_Push_45deg zz?
+U 1 1 5D84E985
+P 8905 4405
+AR Path="/5D84E985" Ref="zz?"  Part="1" 
+AR Path="/5D84943B/5D84E985" Ref="zz?"  Part="1" 
+AR Path="/5D8CA807/5D84E985" Ref="zz10"  Part="1" 
+AR Path="/5D676C6D/5D84E985" Ref="zz10"  Part="1" 
+F 0 "zz10" H 9025 4445 50  0000 L CNN
+F 1 "SW_Push_45deg" H 8905 4255 50  0000 C CNN
+F 2 "18650:SW_TP1003" H 8905 4405 50  0001 C CNN
+F 3 "" H 8905 4405 50  0001 C CNN
+	1    8905 4405
+	-1   0    0    -1  
+$EndComp
+Text Label 1505 4505 0    60   ~ 0
+row5
+Wire Wire Line
+	2305 4105 2305 4305
+Wire Wire Line
+	3005 4105 3005 4305
+Wire Wire Line
+	3705 4105 3705 4305
+Wire Wire Line
+	8255 4105 8255 4305
+Wire Wire Line
+	9005 4105 9005 4305
+Wire Wire Line
+	4405 4105 4405 4305
+Wire Wire Line
+	5155 4105 5155 4305
+Wire Wire Line
+	6155 4105 6155 4305
+Wire Wire Line
+	6855 4105 6855 4305
+Wire Wire Line
+	7555 4105 7555 4305
+Text Label 2305 4105 0    60   ~ 0
+col0
+Text Label 3005 4105 0    60   ~ 0
+col1
+Text Label 3705 4105 0    60   ~ 0
+col2
+Text Label 4405 4105 0    60   ~ 0
+col3
+Text Label 5155 4105 0    60   ~ 0
+col4
+Text Label 6155 4105 0    60   ~ 0
+col5
+Text Label 6855 4105 0    60   ~ 0
+col6
+Text Label 7555 4105 0    60   ~ 0
+col7
+Text Label 8255 4105 0    60   ~ 0
+col8
+Text Label 9005 4105 0    60   ~ 0
+col9
+Wire Wire Line
+	4195 3610 5805 3610
+Wire Wire Line
+	6440 2335 6440 3095
+Wire Wire Line
+	3650 3205 4195 3205
+Wire Wire Line
+	8200 3330 8710 3330
+Wire Wire Line
+	4715 1085 4715 2185
+Wire Wire Line
+	4255 2835 6750 2835
+Wire Wire Line
+	6750 2840 8365 2840
+Wire Wire Line
+	1825 3185 3650 3185
+Wire Wire Line
+	5805 3295 6910 3295
+Wire Wire Line
+	6910 3335 8200 3335
+Wire Wire Line
+	2615 1085 2615 2950
+Wire Wire Line
+	3315 1085 3315 2590
+Wire Wire Line
+	4015 1085 4015 2595
+Wire Wire Line
+	8565 1085 8565 3130
+Wire Wire Line
+	9315 1085 9315 3145
+Wire Wire Line
+	5465 1085 5465 2770
+Wire Wire Line
+	6465 1085 6465 2335
+Wire Wire Line
+	7165 1085 7165 3135
+Wire Wire Line
+	7865 1085 7865 3135
+Wire Wire Line
+	1815 2835 4255 2835
+Wire Wire Line
+	1815 1485 9115 1485
+Wire Wire Line
+	1815 1935 9115 1935
+Wire Wire Line
+	1815 2385 9115 2385
+Wire Wire Line
+	1505 4505 8805 4505
+$EndSCHEMATC
