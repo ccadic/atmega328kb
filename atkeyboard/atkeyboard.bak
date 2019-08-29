@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:atkeyboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1801,10 +1802,10 @@ Wire Wire Line
 NoConn ~ 1230 1590
 NoConn ~ 1230 1690
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5D89A48A
 P 1985 6550
-F 0 "H?" H 2085 6596 50  0000 L CNN
+F 0 "H3" H 2085 6596 50  0000 L CNN
 F 1 "MountingHole" H 2085 6505 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 1985 6550 50  0001 C CNN
 F 3 "~" H 1985 6550 50  0001 C CNN
@@ -1812,10 +1813,10 @@ F 3 "~" H 1985 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5D89AF88
 P 2910 6510
-F 0 "H?" H 3010 6556 50  0000 L CNN
+F 0 "H4" H 3010 6556 50  0000 L CNN
 F 1 "MountingHole" H 3010 6465 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 2910 6510 50  0001 C CNN
 F 3 "~" H 2910 6510 50  0001 C CNN
@@ -1823,10 +1824,10 @@ F 3 "~" H 2910 6510 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5D89BBFB
 P 1960 7140
-F 0 "H?" H 2060 7186 50  0000 L CNN
+F 0 "H2" H 2060 7186 50  0000 L CNN
 F 1 "MountingHole" H 2060 7095 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 1960 7140 50  0001 C CNN
 F 3 "~" H 1960 7140 50  0001 C CNN
@@ -1834,14 +1835,177 @@ F 3 "~" H 1960 7140 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 5D89D802
 P 2970 7150
-F 0 "H?" H 3070 7196 50  0000 L CNN
+F 0 "H5" H 3070 7196 50  0000 L CNN
 F 1 "MountingHole" H 3070 7105 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO7380" H 2970 7150 50  0001 C CNN
 F 3 "~" H 2970 7150 50  0001 C CNN
 	1    2970 7150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5D67900E
+P 5620 5265
+F 0 "R3" H 5679 5311 50  0000 L CNN
+F 1 "PUPSDA" H 5679 5220 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5620 5265 50  0001 C CNN
+F 3 "~" H 5620 5265 50  0001 C CNN
+	1    5620 5265
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5D67A6DD
+P 6295 5270
+F 0 "R4" H 6354 5316 50  0000 L CNN
+F 1 "PUPSDA" H 6354 5225 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 6295 5270 50  0001 C CNN
+F 3 "~" H 6295 5270 50  0001 C CNN
+	1    6295 5270
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0111
+U 1 1 5D67B576
+P 6295 5060
+F 0 "#PWR0111" H 6295 4910 50  0001 C CNN
+F 1 "+3V3" H 6310 5233 50  0000 C CNN
+F 2 "" H 6295 5060 50  0001 C CNN
+F 3 "" H 6295 5060 50  0001 C CNN
+	1    6295 5060
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5620 5165 5620 5115
+Wire Wire Line
+	5620 5115 6295 5115
+Wire Wire Line
+	6295 5115 6295 5060
+Wire Wire Line
+	6295 5115 6295 5170
+Connection ~ 6295 5115
+Text Label 5550 5615 2    50   ~ 0
+SCL
+Text Label 6500 5605 0    50   ~ 0
+SDA
+Wire Wire Line
+	5550 5615 5620 5615
+Wire Wire Line
+	5620 5615 5620 5365
+Wire Wire Line
+	6295 5370 6295 5605
+Wire Wire Line
+	6295 5605 6500 5605
+$Comp
+L adxl345:ADXL345 IC?
+U 1 1 5D6D8D85
+P 8340 5430
+F 0 "IC?" H 8340 5955 50  0000 C CNN
+F 1 "ADXL345" H 8340 5864 50  0000 C CNN
+F 2 "18650:ADXL345" H 8040 4730 50  0001 L CNN
+F 3 "" H 7940 4930 50  0001 C CNN
+F 4 "1853935" H 8040 4630 50  0001 L CNN "Farnell"
+	1    8340 5430
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D6E8126
+P 7790 5040
+F 0 "#PWR?" H 7790 4890 50  0001 C CNN
+F 1 "+3V3" H 7805 5213 50  0000 C CNN
+F 2 "" H 7790 5040 50  0001 C CNN
+F 3 "" H 7790 5040 50  0001 C CNN
+	1    7790 5040
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7790 5040 7790 5130
+Wire Wire Line
+	7865 5130 7865 5230
+Wire Wire Line
+	7865 5230 7940 5230
+Wire Wire Line
+	7790 5130 7865 5130
+Connection ~ 7865 5130
+Wire Wire Line
+	7865 5130 7940 5130
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D7070F9
+P 9120 5540
+F 0 "#PWR?" H 9120 5390 50  0001 C CNN
+F 1 "+3V3" H 9135 5713 50  0000 C CNN
+F 2 "" H 9120 5540 50  0001 C CNN
+F 3 "" H 9120 5540 50  0001 C CNN
+	1    9120 5540
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8740 5630 9120 5630
+Wire Wire Line
+	9120 5630 9120 5540
+$Comp
+L power:GND #PWR?
+U 1 1 5D715FE0
+P 8880 5730
+F 0 "#PWR?" H 8880 5480 50  0001 C CNN
+F 1 "GND" V 8885 5602 50  0000 R CNN
+F 2 "" H 8880 5730 50  0001 C CNN
+F 3 "" H 8880 5730 50  0001 C CNN
+	1    8880 5730
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8740 5730 8880 5730
+Text Label 8775 5830 0    50   ~ 0
+SDA
+Wire Wire Line
+	8740 5830 8775 5830
+Text Label 8795 5930 0    50   ~ 0
+SCL
+Wire Wire Line
+	8740 5930 8795 5930
+$Comp
+L power:GND #PWR?
+U 1 1 5D744201
+P 7875 5430
+F 0 "#PWR?" H 7875 5180 50  0001 C CNN
+F 1 "GND" V 7880 5302 50  0000 R CNN
+F 2 "" H 7875 5430 50  0001 C CNN
+F 3 "" H 7875 5430 50  0001 C CNN
+	1    7875 5430
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7875 5430 7895 5430
+Wire Wire Line
+	7940 5330 7895 5330
+Wire Wire Line
+	7895 5330 7895 5430
+Connection ~ 7895 5430
+Wire Wire Line
+	7895 5430 7940 5430
+Wire Wire Line
+	7940 5530 7895 5530
+Wire Wire Line
+	7895 5530 7895 5430
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5D775013
+P 9000 5130
+F 0 "J?" H 8972 5104 50  0000 R CNN
+F 1 "INTx" H 9225 5250 50  0000 R CNN
+F 2 "18650:2PADS" H 9000 5130 50  0001 C CNN
+F 3 "~" H 9000 5130 50  0001 C CNN
+	1    9000 5130
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8740 5130 8800 5130
+Wire Wire Line
+	8740 5230 8800 5230
 $EndSCHEMATC

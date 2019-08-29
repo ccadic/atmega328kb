@@ -1,4 +1,4 @@
-462993420326130
+466143041191120
 4pads
 4prog
 
@@ -27,6 +27,13 @@
 0
 14
 14
+18650
+2PADS
+
+
+0
+2
+2
 18650
 2x4SMD
 Raspberry Pi Zero Hat Template
@@ -104,6 +111,13 @@ SOT-353 SC-70-5 Handsoldering
 0
 12
 12
+18650
+ADXL345
+
+ADXL345 accel accelerometer
+0
+14
+14
 18650
 Aile_Canard
 
